@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&family=Rajdhani:wght@300;700&family=Roboto+Slab:wght@300;400;500&family=Tilt+Prism&display=swap');
+
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Comforter', cursive;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Rajdhani', sans-serif;
+// font-family: 'Roboto Slab', serif;
+// font-family: 'Tilt Prism', cursive;
+
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+
+//bootstrap
+$font-family-sans-serif:'Poppins', sans-serif;
+$secondary:rgb(249, 243, 243);
+
+$navbar-nav-link-padding-x:2rem;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  //xxl: 1320px
+);
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//css
+
+.form-control {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .paragraph-font{
+    font-family: 'Roboto Slab', serif;
+  }
+  .users img{
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -20px;
+  }
+
+  .users img:first-child{
+    margin-left: 0;
+  }
+
+  .border-left{
+    border-left: 1px solid rgb(225, 216, 216);
+    height: 100%;
+  }
+
+  .margin-left{
+    margin-left: 56px;
+  }
